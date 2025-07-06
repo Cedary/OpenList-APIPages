@@ -1,6 +1,4 @@
 #/bin/bash
-
-cp .env.example .env
 # 替换.env文件中的变量值
 if [ -z "${OPLIST_MAIN_URLS}" ]; then
     echo "MAIN_URLS is not set, skipping replacement in .env."
